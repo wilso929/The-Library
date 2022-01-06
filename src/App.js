@@ -4,6 +4,7 @@ import Nintendo from './pages/Nintendo';
 import Xbox from './pages/Xbox';
 import PS from './pages/PS';
 import Add from './pages/Add';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
@@ -11,10 +12,11 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Add />} />
+          <Route path='/' element={<Home />} />
           <Route path='/Nintendo' element={<Nintendo />} />
           <Route path='/PS' element={<PS />} />
           <Route path='/Xbox' element={<Xbox />} />
+          <Route path='/Add' element={<Add />} />
         </Routes>
 
 

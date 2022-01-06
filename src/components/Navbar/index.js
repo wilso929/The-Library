@@ -89,7 +89,7 @@ const Navbar = () => {
                     </div>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to='/signin'>Sign in</NavBtnLink>
+                    <NavBtnLink to='/Add'>Add</NavBtnLink>
                 </NavBtn>
             </Nav>
             
