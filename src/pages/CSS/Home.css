@@ -1,0 +1,60 @@
+.title{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    width: 90%;
+    font-size: xx-large;
+    text-shadow: -5px -5px #000;
+    text-shadow: 5px 5px #000;
+}
+
+.Nin{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/nintendo_consoles.jpg");
+    background-color: #000;
+    margin: auto;
+    padding: 200px;
+    text-align: center;
+    margin-top: 3%;
+    width: 90%;
+    font-size: xx-large;
+    text-shadow: 5px -5px #000;
+}
+
+.PS{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/PS_consoles.jpg");
+    opacity: 20;
+    margin: auto;
+    margin-left: 100%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    margin-top: 3%;
+    width: 48%;
+    float: left;
+    font-size: x-large;
+    text-shadow: 5px -5px #000;
+}
+.Xbox{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/Xbox_consoles.jpg");
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    margin-top: 3%;
+    width: 48%;
+    float: right;
+    font-size: x-large;
+    text-shadow: 5px -5px #000;
+}
+
+.container{
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+html { 
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/background.jpg") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

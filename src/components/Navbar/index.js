@@ -64,7 +64,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <h1>Logo</h1>
+                    <img src='/Images/logo.png' alt="" width="50" height="50"/> 
                 </NavLink>
                 <NavMenu>
                     <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>

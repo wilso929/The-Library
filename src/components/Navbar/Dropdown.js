@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Dropdown.css';
-
+import{Nav, NavLink, NavMenu, Bars, NavBtn, NavBtnLink} from './NavbarElements'
 
 
 const Dropdown = ( { MenuItems }) => {
@@ -14,9 +14,9 @@ const Dropdown = ( { MenuItems }) => {
                 {MenuItems.map((item, index) =>{
                     return(
                         <li key={index}>
-                            <h3 className='dropdown-link'>
-                                {item.title}
-                            </h3>
+                            <NavLink to='/Console' activeStyle console={item.title}>
+                                {item.title} 
+                            </NavLink>
                         </li>
                     )
                 })}

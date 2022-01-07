@@ -6,6 +6,7 @@ import PS from './pages/PS';
 import Add from './pages/Add';
 import Home from './pages/Home';
 import './App.css';
+import Console from './pages/Console';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/PS' element={<PS />} />
           <Route path='/Xbox' element={<Xbox />} />
           <Route path='/Add' element={<Add />} />
+          <Route path='/Console' element={<Console />} />
         </Routes>
 
 
