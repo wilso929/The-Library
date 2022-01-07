@@ -1,0 +1,104 @@
+.title{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    width: 90%;
+    font-size: xx-large;
+    text-shadow: -5px -5px #000;
+    text-shadow: 5px 5px #000;
+}
+
+.PS5{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/ps5.jpg");
+    background-position: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(228, 222, 222, 0.5);
+    margin: auto;
+    padding: 200px;
+    text-align: center;
+    margin-top: 3%;
+    width: 90%;
+    font-size: xx-large;
+    text-shadow: 5px -5px #000;
+}
+
+.PS4{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/ps4.jpg");
+    background-size: 100%;
+    background-position: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(14, 0, 207, 0.5);
+    opacity: 20;
+    margin: auto;
+    margin-left: 100%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    margin-top: 3%;
+    width: 48%;
+    float: left;
+    font-size: x-large;
+    text-shadow: 5px -5px #000;
+}
+.PS3{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/ps3.jpg");
+    background-size: 100%;
+    background-position: 10%;
+    box-shadow: inset 0 0 0 1000px rgb(219, 221, 219, 0.5);
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    margin-top: 3%;
+    width: 48%;
+    float: right;
+    font-size: x-large;
+    text-shadow: 5px -5px #000;
+}
+
+.PS2{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/ps2.jpg");
+    background-size: 100%;
+    background-position: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(219, 221, 219, 0.5);
+    opacity: 20;
+    margin: auto;
+    margin-left: 100%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    margin-top: 3%;
+    width: 48%;
+    float: left;
+    font-size: x-large;
+    text-shadow: 5px -5px #000;
+    margin-bottom: 3%;
+}
+.PS1{
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/ps1.jpg");
+    background-size: 100%;
+    background-position: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(134, 136, 134, 0.5);
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    margin-top: 3%;
+    width: 48%;
+    float: right;
+    font-size: x-large;
+    text-shadow: 5px -5px #000;
+    margin-bottom: 3%;
+}
+
+.container{
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+html { 
+    background: url("C:/Users/Admin/OneDrive/Desktop/The-Library/the-library/public/Images/background.jpg") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+  }

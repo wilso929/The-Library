@@ -9,19 +9,19 @@ const Home = () => {
                 <h1>The Library</h1>
             </div>
             <div className='Nin'>
-                <Link to='/Nintendo'>
+                <Link to='/Nintendo' style={{ textDecoration: 'none' }}>
                     <h1>Nintendo</h1>
                 </Link>
             </div>  
 
             <div className='container'>
                 <div className='PS'>
-                        <Link to='/PS'>
-                            <h1>Play Staion</h1>
+                        <Link to='/PS' style={{ textDecoration: 'none' }}>
+                            <h1>Play Station</h1>
                         </Link>
                 </div>  
                 <div className='Xbox'>
-                    <Link to='/Xbox'>
+                    <Link to='/Xbox' style={{ textDecoration: 'none' }}>
                         <h1>Xbox</h1>
                     </Link>
                 </div>  
