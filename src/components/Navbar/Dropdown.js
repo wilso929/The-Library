@@ -14,7 +14,7 @@ const Dropdown = ( { MenuItems }) => {
                 {MenuItems.map((item, index) =>{
                     return(
                         <li key={index}>
-                            <NavLink to='/Console' activeStyle console={item.title}>
+                            <NavLink to={item.path} activeStyle>
                                 {item.title} 
                             </NavLink>
                         </li>

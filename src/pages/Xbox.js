@@ -8,19 +8,19 @@ const Xbox = () => {
                 <h1>The Library</h1>
             </div>
             <div className='One'>
-                <Link to='/Nintendo' style={{ textDecoration: 'none' }}>
+                <Link to='/Nintendo' style={{ textDecoration: 'none', color:"#1E90FF" }}>
                     <h1>One</h1>
                 </Link>
             </div>  
 
             <div className='container'>
                 <div className='X360'>
-                        <Link to='/PS' style={{ textDecoration: 'none' }}>
+                        <Link to='/PS' style={{ textDecoration: 'none', color:"#1E90FF" }}>
                             <h1>360</h1>
                         </Link>
                 </div>  
                 <div className='OG'>
-                    <Link to='/Xbox' style={{ textDecoration: 'none' }}>
+                    <Link to='/Xbox' style={{ textDecoration: 'none', color:"#1E90FF" }}>
                         <h1>Original</h1>
                     </Link>
                 </div>  

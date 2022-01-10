@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/*   color variables */
+$clr-primary: #d50000;
+$clr-primary-hover: #29e6a7;
+$clr-primary-dark: #039d69;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+
+/*   border radius */
+$radius: 0.2rem;
+
+.wrapper {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  column-gap: 10rem;
+  row-gap: 30rem;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 2px 20px $clr-gray300;
+  border-radius: $radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:hover &__btn {
+    background: $clr-primary;
+    color: white;
+  }
+
+}
+.card__title{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+  color: white;
+}
