@@ -20,13 +20,6 @@ const Switch = () => {
         const data = await res.json();
         return data
       }
-    
-      const fetchGame = async (id) =>{
-        const res = await fetch(`http://localhost:5000/games/${id}`);
-        const data = await res.json();
-        return data
-      }
-
 
   return (
     <div className='wrapper'>

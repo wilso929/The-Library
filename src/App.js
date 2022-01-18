@@ -14,6 +14,7 @@ import Snes from './pages/Consoles/Snes';
 import Nes from './pages/Consoles/Nes';
 import Ds from './pages/Consoles/Ds';
 import Gameboy from './pages/Consoles/Gameboy';
+import GamePro from './pages/GamePro';
 
 import './App.css';
 
@@ -36,6 +37,8 @@ function App() {
           <Route path='/Nes' element={<Nes />} />
           <Route path='/Ds' element={<Ds />} />
           <Route path='/Gameboy' element={<Gameboy />} />
+          <Route path='/GameCard/:id' element={<GamePro />} />
+
         </Routes>
 
 

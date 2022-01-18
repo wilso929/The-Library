@@ -1,0 +1,31 @@
+
+.image{
+    margin-top: 5%;
+    margin-left: 15%;
+    float: left;
+    
+
+}
+
+.info{
+    box-shadow: inset 0 0 0 1000px rgba(30, 32, 30, 0.7);
+    float: right;
+    margin-right: 15%;
+    height: max-content;
+    width: 30%;
+}
+
+
+.title{
+    margin-top: -10%;
+    font-size: 40px;
+}
+.complete{
+    margin-left: 10%;
+}
+
+.p-title{
+    margin-top: 10%;
+    margin-left: 10%;
+
+}

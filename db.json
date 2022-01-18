@@ -1,58 +1,85 @@
 {
   "games": [
     {
-      "id":"1",
+      "id": "1",
       "Title": "Collection of Mana",
-      "Platforms": ["Switch"],
-      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w90.png"
-  },
-  {
-      "id":"2",
+      "Platforms": [
+        "Switch"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w90.png",
+      "Completed": false
+    },
+    {
+      "id": "2",
       "Title": "Bayonetta 2",
-      "Platforms": ["Wii U"],
-      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/qocwccspgmgamvhaplgp.png"
-  },
-  {
-      "id":"3",
+      "Platforms": [
+        "Wii U"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/qocwccspgmgamvhaplgp.png",
+      "Completed": true
+    },
+    {
+      "id": "3",
       "Title": "Wii Fit",
-      "Platforms": ["Wii"],
-      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mb5.png"
-  },
-  {
-      "id":"4",
+      "Platforms": [
+        "Wii"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mb5.png",
+      "Completed": true
+    },
+    {
+      "id": "4",
       "Title": "Super Smash Bros. Melee",
-      "Platforms": ["GameCube"],
-      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.png"
-  },
-  {
-      "id":"5",
+      "Platforms": [
+        "GameCube"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.png",
+      "Completed": true
+    },
+    {
+      "id": "5",
       "Title": "Super Mario 64",
-      "Platforms": ["N64"],
-      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bku.png"
-  },
-  {
-    "id":"6",
-    "Title": "MEGA MAN X",
-    "Platforms": ["Snes"],
-    "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3z0b.png"
-  },
-  {
-    "id":"7",
-    "Title": "Duck Hunt",
-    "Platforms": ["Nes"],
-    "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.png"
-  },
-  {
-    "id":"8",
-    "Title": "The Legendary Starfy",
-    "Platforms": ["DS"],
-    "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d0r.png"
-  },
-  {
-    "id":"9",
-    "Title": "Pokémon Red",
-    "Platforms": ["Gameboy"],
-    "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s5t.png"
-  }
-]
+      "Platforms": [
+        "N64"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bku.png",
+      "Completed": true
+    },
+    {
+      "id": "6",
+      "Title": "MEGA MAN X",
+      "Platforms": [
+        "Snes"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3z0b.png",
+      "Completed": true
+    },
+    {
+      "id": "7",
+      "Title": "Duck Hunt",
+      "Platforms": [
+        "Nes"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.png",
+      "Completed": true
+    },
+    {
+      "id": "8",
+      "Title": "The Legendary Starfy",
+      "Platforms": [
+        "DS"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d0r.png",
+      "Completed": true
+    },
+    {
+      "id": "9",
+      "Title": "Pokémon Red",
+      "Platforms": [
+        "Gameboy"
+      ],
+      "Img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s5t.png",
+      "Completed": true
+    }
+  ]
 }
